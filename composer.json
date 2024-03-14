@@ -18,7 +18,7 @@
     "require": {
         "php": "^8.2",
         "ext-json": "*",
-        "arcanedev/support": "^10.0.1"
+        "arcanedev/support": "master"
     },
     "require-dev": {
         "laravel/framework": "^11.0",
@@ -53,6 +53,13 @@
         "test:dox": "phpunit --testdox --colors=always",
         "test:cov": "phpunit --coverage-html coverage"
     },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/stojankukrika/Support.git"
+        }
+    ],
     "suggest": {
         "illuminate/redis": "This package allows you to persist the settings into a redis server."
     },
