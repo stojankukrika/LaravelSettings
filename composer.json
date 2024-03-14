@@ -16,16 +16,16 @@
     "type":    "library",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "ext-json": "*",
-        "arcanedev/support": "^9.0"
+        "arcanedev/support": "^10.0.1"
     },
     "require-dev": {
-        "laravel/framework": "^9.0",
-        "mockery/mockery": "^1.4.2",
-        "orchestra/testbench-core": "^7.0",
-        "phpunit/phpunit": "^9.5.10",
-        "predis/predis": "^1.1.9"
+        "laravel/framework": "^11.0",
+        "mockery/mockery": "^1.6.9",
+        "orchestra/testbench-core": "^v9.0.2",
+        "phpunit/phpunit": "^11",
+        "predis/predis": "^v2.2.2"
     },
     "autoload": {
         "psr-4": {
